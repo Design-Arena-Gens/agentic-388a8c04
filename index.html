@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+          integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCENQF8/8vLqlzqKwvrm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="board" class="board"></div>
+    <div class="info">
+        <h2>Status</h2>
+        <div id="status"></div>
+        <h2>PGN</h2>
+        <div id="pgn"></div>
+        <button id="resetButton">Reset Game</button>
+        <button id="undoButton">Undo</button>
+        <button id="flipBoardButton">Flip Board</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha384-ZvpUoO/+PpLXR1sA++wcAMCVA5UcoAFz0z4rk2z2FjA4M5vG/f1M+V1/9OJHbx4D"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+    <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+            integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3LryDRnmMMGmhL/TOi7+t0L+oGYY8p51M0"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
